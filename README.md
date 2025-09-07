@@ -1,31 +1,67 @@
-Keyboard instruction
-•	“E” or ”e” key: Pressing the "E" or "e" key will navigate to the solar system model from the home page.
-•	“D” or ”d” key: After transitioning to the solar system model, pressing the "D" or "d" key will display the distance of the planets from the sun.
-•	“R” or ”r” key: Pressing the "R" or "r" key will display the approximate radius of the planets.
-•	“H” or ”h” key: Pressing the "H" or "h" key will return to the home page.
-•	“1” key: Pressing the "1" key will navigate to the Earth scene.
-	Earth Scenario Controls:
-•	“b” key: Pressing the "b" key will stop the boat.
-•	“s” key: Pressing the "s" key will trigger sunrise.
-•	“c” key: Pressing the "c" key will hide the boat.
-•	“p” key: Pressing the "p" key will make the boat visible.
-•	“m” key: Pressing the "m" key will start the car.
-•	“n” key: Pressing the "n" key will stop the car.
-•	“l” key: Pressing the "l" key will hide the car.
-•	“k” key: Pressing the "k" key will make the car visible.
-•	“o” key: Pressing the "o" key will make the clouds move.
-•	“i” key: Pressing the "i" key will hide the clouds.
-•	“y” key: Pressing the "y" key will make the clouds visible again.
-•	“q” key: Pressing the "q" key will make the sky cloudy and trigger rain.
-•	“w” key: Pressing the "w" key will make the sky sunny without rain.
-•	“2” key: Pressing the "2" key will navigate to the Mars scene.
-	Mars Scenario Controls:
-•	“f” or “F” key: Pressing the "f" or "F" key will start a sandstorm.
-•	“G” or “g” key: Pressing the "G" or "g" key will stop the sandstorm.
-•	“N” key: Pressing the "N" key will initiate an animation with facts about Neptune.
-•	“Z” Key: Pressing the "Z" key will navigate to Neptune.
-•	“X” Key: Pressing the "X" key will land a spaceship on the surface of Neptune.
-•	“C” Key: Pressing the "C" key will move a space rover first upwards and then from left to right.
-•	“V” Key: Pressing the "V" key will initiate a procedure to compare the gravity of both Neptune and Earth.
-•	“B” Key: Pressing the "B" key will start bouncing balls to compare the gravity of both Neptune and Earth.
+# 🌌 OpenGL Computer Graphics Project  
 
+This project demonstrates various **3D animations and scenarios** using **OpenGL**.  
+Users can explore different planets, interact with environments, and trigger animations through **keyboard controls**.  
+
+---
+
+## 🎮 Keyboard Instructions  
+
+### 🔑 Global Controls  
+- **E / e** → Navigate to the Solar System model from the Home Page.  
+- **D / d** → Display the distance of planets from the Sun.  
+- **R / r** → Display the approximate radius of the planets.  
+- **H / h** → Return to the Home Page.  
+- **1** → Navigate to the **Earth Scene**.  
+- **2** → Navigate to the **Mars Scene**.  
+
+---
+
+### 🌍 Earth Scenario Controls  
+- **b** → Stop the boat.  
+- **s** → Trigger sunrise.  
+- **c** → Hide the boat.  
+- **p** → Make the boat visible.  
+- **m** → Start the car.  
+- **n** → Stop the car.  
+- **l** → Hide the car.  
+- **k** → Make the car visible.  
+- **o** → Move the clouds.  
+- **i** → Hide the clouds.  
+- **y** → Show the clouds again.  
+- **q** → Make the sky cloudy and trigger rain.  
+- **w** → Make the sky sunny without rain.  
+
+---
+
+### 🔴 Mars Scenario Controls  
+- **f / F** → Start a sandstorm.  
+- **g / G** → Stop the sandstorm.  
+- **N** → Show animation with facts about Neptune.  
+- **Z** → Navigate to Neptune.  
+- **X** → Land a spaceship on Neptune.  
+- **C** → Move a space rover upwards, then left to right.  
+- **V** → Compare gravity of Neptune and Earth.  
+- **B** → Start bouncing balls to compare Neptune and Earth gravity.  
+
+---
+
+## 🚀 Features  
+- Solar System model with interactive planet data.  
+- Earth scene with **dynamic weather, moving objects, and natural events**.  
+- Mars scene with **sandstorms, rovers, and planetary comparisons**.  
+- Neptune animations including **spaceship landing and gravity simulation**.  
+
+---
+
+## 🛠️ Requirements  
+- OpenGL  
+- C/C++ compiler  
+- GLUT / FreeGLUT  
+
+---
+
+## 📌 Usage  
+1. Clone this repository:  
+   ```bash
+   git clone https://github.com/your-username/your-repo.git
